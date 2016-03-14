@@ -3,6 +3,9 @@ version = "1.0-1"
 build = {
     type = "builtin"
     -- Now we need to tell it what to build.
+    modules = {
+       luamodule = "luamodule.lua"
+    }
 }
 source = {
     url = "git://github.com/antirek/luamodule",
